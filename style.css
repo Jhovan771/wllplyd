@@ -1,0 +1,110 @@
+body 
+{
+    font-family: 'Gill Sans MT';
+    background-color: rgb(22, 21, 21);
+}
+.nav-list 
+{
+    background: black;
+    box-shadow: 3px 3px 10px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+.nav-items 
+{
+    list-style-type: none;
+    margin-right: 2rem;
+    float: left;
+}
+.nav-items a 
+{
+    text-decoration: none;
+    color: crimson;
+}
+.nav-items:first-child
+{
+    margin-right: auto;
+    margin-left: 2rem;
+    color: crimson;
+}
+.first-btn
+{
+    font-family: 'Gill Sans MT';
+    font-size: 1rem;
+    border-radius: 1px;
+    outline-color: red;
+    outline-style: double;
+    padding: 1px 1rem;
+    cursor: pointer;
+    transition: all 400ms ease-in;
+    background-color: transparent;
+    color: crimson;
+}
+.first-btn:hover
+{
+    background: transparent;
+    color: white;
+}
+.nav-items a:hover
+{
+    color: rgb(117, 115, 97);
+}
+.luffy-profile
+{
+    width: 600px;
+    height: 500px;
+    background-image: url(unnamed.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.profile-name
+{
+    justify-content: center;
+    color: crimson;
+    font-family: sans-serif;
+    padding-top: 0%;
+}
+.p2
+{
+    color: white;
+}
+.about-page
+{
+    background-size: 100%;
+    background-position: center;
+    justify-content: center;
+    display: flex;
+    box-shadow: 3px 3px 5px;
+    color: aliceblue;
+    font-family: sans-serif;
+    list-style-type: none;
+    padding-top: 40px;
+}
+.about-it
+{
+    margin: 15px
+}
+.gallery-items
+{
+    
+    background-size: 100%;
+    background-position: center;
+    justify-content: center;
+    display: flex;
+    box-shadow: 3px 3px 5px;
+    color: aliceblue;
+    font-family: sans-serif;
+    list-style-type: none;
+    padding-top: 40px;
+}
